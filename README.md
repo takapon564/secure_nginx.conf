@@ -2,7 +2,7 @@
 
 ## アプリケーションのフロントに置くことで、通信をhttps化させるためのnginx.confの設定です
 
-1.cerbotのインストール
+1.cerbotのインストール \
  $ sudo yum install epel-release　\
  $ sudo yum install certbot
 
