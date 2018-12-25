@@ -13,6 +13,6 @@
   上記の手順を行うとメールアドレスを聞かれるので入力
 
 3.設定ファイルの変更
-　証明書の取得後、secure_nginx.confファイルの内容を/etc/nginx/nginx.confに追記し
+　証明書の取得後、secure_nginx.confファイルの内容を/etc/nginx/nginx.confに上書きし
   nginxを再起動
   これでバックエンドに配置しているアプリケーションに対してsecureな通信を行える。
