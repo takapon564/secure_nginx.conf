@@ -7,8 +7,7 @@
  $ sudo yum install certbot
 
 2.証明書の取得
- $ certbot certonly --webroot -w /usr/share/nginx/html -d \
-   (証明書を取得するドメイン)
+ $ certbot certonly --webroot -w /usr/share/nginx/html -d (証明書を取得するドメイン)
 
   上記の手順を行うとメールアドレスを聞かれるので入力
 
